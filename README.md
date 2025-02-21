@@ -41,6 +41,13 @@ After Initializing the application 40
 
 # commiting changes to repository
 Run:
- git config --global user.email "you@example.com"
+ git config --global user.email "your@example.com"
  git config --global user.name "Your Name"
+
+Make the changes to files and directories as necessary
+then do the following to commit the changes
+
+git add .
+git commit -m "Your message"
+git push origin dev
 
