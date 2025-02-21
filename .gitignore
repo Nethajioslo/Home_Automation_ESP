@@ -50,3 +50,16 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Vs Code
+.vscode
+*.code-workspace
+
+# Bazel ignores
+/bazel-*
+user.bazelrc
+*bazel.lock
+
+# python ignores
+*__pycache__
+*.pyc

@@ -1,0 +1,10 @@
+# use half of the available CPU cores by default. This helps to ensure PC is available during builds.
+build --jobs="HOST_CPUS*.5"
+# User-specific .bazelrc
+try-import %workspace%/user.bazelrc
+
+# microsoft visual studio 
+test:ci-windows --test_env=BAZEL_VC
+
+# Always stamp the builds
+build --stamp

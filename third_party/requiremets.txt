@@ -1,0 +1,2 @@
+# Add python packages if needed which will be extracted using pip.
+# Ex numpy=1.2.6
